@@ -15,4 +15,4 @@ SELECT
     COUNT(*) AS "Total Rentals"
 FROM rental
 GROUP BY ROLLUP ("Year", "Month")
-ORDER BY "Year";
+ORDER BY "Year", "Month";
